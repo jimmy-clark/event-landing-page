@@ -8,3 +8,6 @@
     text-decoration: underline;
     color: navy;
 }
+.placeholder {
+    max-width: 100%;
+}
