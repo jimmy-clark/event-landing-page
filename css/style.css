@@ -21,3 +21,7 @@
     background-size: contain; 
     background-repeat: no-repeat;
 }
+.jumbotron-2 {
+   background-image: none;
+    background-color: white;
+}
