@@ -1,6 +1,9 @@
 .nav {
     font-weight: bold;
 }
+.head {
+    position: sticky;
+}
 .nav:hover {
     text-decoration: underline;
     color: navy;
