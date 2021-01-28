@@ -1,4 +1,4 @@
-# bootstrap-boilerplate
+# event-landing-page
 <h1> About </h1>
 <p> This project might not be useful to anyone else, but this is my sandbox for getting aquainted with bootstrap and all of it nuances. This project is set up currently to work with the bootstrap repository, so if you are looking for a place to play around with bootstrap, this is a great place to start! </p>
 
