@@ -10,48 +10,104 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1457202a29.js" crossorigin="anonymous"></script>
 
     <title>Hello, world!</title>
 </head>
 
 <body>
-
+    <!--Nav Bar-->
     <div class="head d-flex flex-row">
         <h1 class="ml-2 mr-auto logo">Big Event Website</h1>
         <div class="p-2 mt-1 nav">Speakers</div>
         <div class="p-2 mt-1 nav">Tickets</div>
         <div class="p-2 mr-2 mt-1 nav">Venue</div>
     </div>
-
+    <!--Jumbotron 1-->
     <div class="jumbotron text-center">
-        <h1 class="display-4">Best Event of the Year</h1>
-        <p class="lead">Not like any other event you have ever seen.</p>
-        <a class="btn btn-dark btn-lg" href="#" role="button">GET THE TICKET</a>
+        <h1 class="display-4 font-weight-bold">Best Event of the Year</h1>
+        <p class="lead text-secondary">Not like any other event you have ever seen.</p>
+        <a class="btn btn-dark btn-lg font-weight-bold" href="#" role="button">GET THE TICKET</a>
     </div>
-    <div class="container">
+    <!--Speaker Section-->
+    <div class="mr-5 ml-5">
         <div>
-            <div class="h3 text-center mb-1">The Speakers</div>
-            <div class="p-2 mb-3 text-center">World Class Speakers that you have never heard of are going to be here!</div>
+            <div class="h3 font-weight-bold text-center mb-1">The Speakers</div>
+            <div class="p-2 mb-3 font-weight-bold text-center">World Class Speakers that you have never heard of are
+                going to be here!</div>
         </div>
         <div class="row text-center">
-            <div class="col-sm">
-                Box 1
+            <div class="col-sm mr-3 ml-3">
+
                 <img class="placeholder" src="assets/placeholder.png">
+                <div class="h4 font-weight-bold mt-3 text-left speaker-name">Ruby Jennings</div>
+                <div class="mt-2 text-left text-secondary">Project Manager at Moqups. Runner, parent and coffee lover.
+                </div>
+                <div class="mt-2 text-left text-secondary">@username</div>
             </div>
-            <div class="col-sm">
-                Box 2
+            <div class="col-sm mr-3 ml-3">
+
                 <img class="placeholder" src="assets/placeholder.png">
+                <div class="h4 font-weight-bold mt-3 text-left speaker-name">Ruby Jennings</div>
+                <div class="mt-2 text-left text-secondary">Project Manager at Moqups. Runner, parent and coffee lover.
+                </div>
+                <div class="mt-2 text-left text-secondary">@username</div>
             </div>
-            <div class="col-sm">
-                Box 3
+            <div class="col-sm mr-3 ml-3">
+
                 <img class="placeholder" src="assets/placeholder.png">
+                <div class="h4 font-weight-bold mt-3 text-left speaker-name">Ruby Jennings</div>
+                <div class="mt-2 text-left text-secondary">Project Manager at Moqups. Runner, parent and coffee lover.
+                </div>
+                <div class="mt-2 text-left text-secondary">@username</div>
             </div>
-            <div class="col-sm">
-                Box 4
+            <div class="col-sm mr-3 ml-3">
+
                 <img class="placeholder" src="assets/placeholder.png">
+                <div class="h4 font-weight-bold mt-3 text-left speaker-name">Ruby Jennings</div>
+                <div class="mt-2 text-left text-secondary">Project Manager at Moqups. Runner, parent and coffee lover.
+                </div>
+                <div class="mt-2 text-left text-secondary">@username</div>
             </div>
         </div>
     </div>
+    <!--Jumbotron 2-->
+    <div class="jumbotron jumbotron-2 text-center">
+        <hr class="my-4">
+        <h1 class="display-5 font-weight-bold">Get Your Ticket Today!</h1>
+        <p class="text-secondary mb-4 mt-4">Each ticket includes: <b>20</b> speakers, <b>1000</b> participants,
+            <b>15</b> sessions, <b>5</b> keynotes.</p>
+        <a class="btn btn-dark btn-lg font-weight-bold mb-4 mt-2" href="#" role="button">BUY TICKET $149</a>
+        <hr class="my-4">
+    </div>
+    <!--Venue Section-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h3 class="font-weight-bold mb-5">The Venue</h3>
+                <p class="mb-5">Our event will be held at the <b>Oakland Fox Theater 1807 Telegraph Ave, Oakland, CA</b></p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.2289446990276!2d-122.27251018426763!3d37.80810607975345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f80b211ec1ba1%3A0x7c85b24f92f82be!2sFox%20Theater!5e0!3m2!1sen!2sus!4v1611876523962!5m2!1sen!2sus"
+                    width="100%" max-height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0" class="img-fluid"></iframe>
+                </div>
+            <div class="col-sm">
+                <img class="placeholder img-fluid" src="assets/placeholder.png">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <!--Footer-->
+    <div class="d-flex mb-3 mr-4 ml-4"> 
+                        <div><i class="p-2 fab fa-twitter"></i></div>
+                        <div><i class="p-2 fab fa-instagram"></i></div>
+                        <div><i class="p-2 fab fa-facebook"></i></div>
+                      
+                        <div class="p-2 ml-auto">&copy 2021 Huge Event Group LLC</div>
+    </div>
+    <hr class="my-0">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
